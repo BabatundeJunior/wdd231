@@ -1,0 +1,58 @@
+
+:root {
+	--primary-color: steelblue;
+	--secondary-color: gray;
+	--accent1: black;
+    --accent2: #fff;
+    --accent4: #333;
+    --accent5: #bbb;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+@media screen and (min-width: 1020px) {
+    h1 {
+		font-size: 2rem;
+		margin-left: 0;
+		text-align: left;
+        padding: 0 10px 0 20px;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; /* hides hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+        justify-content: space-around;
+
+	}
+
+	.navigation a {
+		display: block;
+		/* flex: 1 1 100%; */
+	}
+    .left-header{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 5px 5px 0 10px;
+    }
+    nav {
+        max-width: none;
+    }
+    .page {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      
+      .bottom {
+        grid-column: 1 / span 2; 
+      }
+      
+}
