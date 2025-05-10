@@ -166,7 +166,7 @@ nav {
   text-align: center;
   border-radius: 6px;
   font-weight: bold;
-  color: white;
+  color: var(--accent1);
   width: 80%;
 }
 
