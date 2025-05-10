@@ -14,16 +14,24 @@
 	box-sizing: border-box;
 	font-family: "Nunito", sans-serif;
 }
+.heading {
+  font-size:xx-large;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: left;
 
+}
 h1 {
-	text-align: left;
-    padding-top: 15px;
+  text-align: left;
+  grid-area: top;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 nav {
 	max-width: 700px;
 	margin: 1rem auto;
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 	font-weight: 700;
 }
 
@@ -87,6 +95,7 @@ nav {
 .page {
     grid-template-columns: 1fr;
     grid-template-areas:
+      "top"
       "left"
       "right"
       "bottom";
@@ -107,6 +116,7 @@ nav {
     grid-area: bottom;
     padding-bottom: 20px;
   }
+
   .grid-headers{
     background-color: var(--primary-color);
     border-top-left-radius: 10px; 
