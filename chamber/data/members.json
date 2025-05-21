@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Eni Stores",
+    "address": "4 Edet Akpan Avenue, Uyo",
+    "phone": "+234 813 588 0220",
+    "website": "https://enistores.com",
+    "image": "eni.jpg",
+    "membership": 3,
+    "description": "Home for easy meal and drinks pickup"
+  },
+  {
+    "name": "Crunchies Fast Food",
+    "address": "142 Aka Road, Uyo",
+    "phone": "+234 907 703 8947",
+    "website": "https://crunchiesltd.com/",
+    "image": "crunch.jpg",
+    "membership": 3,
+    "description": "Home of mouth watery delicacies and dishes"
+  },
+  {
+    "name": "Whitebridge Global Ltd",
+    "address": "114 Udo Udoma Avenue, Uyo",
+    "phone": "+234 803 749 2675",
+    "website": "http://whitebridgeconsulting.com",
+    "image": "watbridge.jpg",
+    "membership": 3,
+    "description": "All legal consultations with top professionals"
+  },
+  {
+    "name": "IBBIL Computers",
+    "address": "80 Aka Road, Uyo",
+    "phone": "+234 708 543 4434",
+    "website": "http://ibbilcomputers.com",
+    "image": "ibbil.jpg",
+    "membership": 3,
+    "description": "Wholesale of computers and accessories"
+  },
+  {
+    "name": "Kilimanjaro Restaurants",
+    "address": "165 Oron Road, Uyo",
+    "phone": "+234 807 509 1477",
+    "website": "https://kilimanjaro-restaurants.com/",
+    "image": "kili.jpg",
+    "membership": 2,
+    "description": "Easy stop for intercontinental dishes"
+  },
+  {
+    "name": "Starthub Technology Ltd",
+    "address": "Suite G11, Ibom e-Library, Uyo",
+    "phone": "+234 909 000 9216",
+    "website": "https://starthub.com.ng",
+    "image": "starthub.jpg",
+    "membership": 2,
+    "description": "Website development and programming hub"
+  },
+  {
+    "name": "Radiant Oak Intelligence",
+    "address": "135A Edet Akpan Avenue, Uyo",
+    "phone": "+234 810 109 7101",
+    "website": "http://www.radiantoakng.com",
+    "image": "oak.jpg",
+    "membership": 1,
+    "description": "Premium private security personnels at your service"
+  },
+  {
+    "name": "PHED Uyo",
+    "address": "No.3 Ekpeyong Street, Uyo",
+    "phone": "+234 805 029 3215",
+    "website": "http://www.phed.com.ng",
+    "image": "phd.jpg",
+    "membership": 1,
+    "description": "Electricity distribution made easy"
+  },
+  {
+    "name": "ICMA Services",
+    "address": "PLot 21, Unit G, Ewet Housing Estate, Uyo",
+    "phone": "+234 901 413 6067",
+    "website": "http://www.icmaservices.com",
+    "image": "icma.jpg",
+    "membership": 1,
+    "description": "Home cleaning and event management"
+  },
+  {
+    "name": "Accent Digital Resources",
+    "address": "28B Itu Road, Uyo",
+    "phone": "+234 808 678 3266",
+    "website": "http://www.accentdigitalresources.com",
+    "image": "accent.jpg",
+    "membership": 1,
+    "description": "Premium photo edits and collage"
+  },
+  {
+    "name": "Ibomstore",
+    "address": "No 11 Iboko Street, Uyo",
+    "phone": "+234 7011 110 034",
+    "website": "https://www.ibomstore.com",
+    "image": "ibomstore.jpg",
+    "membership": 1,
+    "description": "Governments subsidized goods from china"
+  },
+  {
+    "name": "AA Car Rescue",
+    "address": "132 Nsikak Eduok Avenue, Uyo",
+    "phone": "+234 802 730 6799",
+    "website": "http://www.aarescuenigeria.com",
+    "image": "aarescue.jpg",
+    "membership": 2,
+    "description": "Easy car rescue anyday, anynight, anywhere"
+  }
+]

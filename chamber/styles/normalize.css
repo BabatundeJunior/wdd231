@@ -1,0 +1,244 @@
+:root {
+	--primary-color: #E4E0DD	;
+	--secondary-color: #0C575A;
+    --accent1: #DC6A38;
+    --accent2: #FDFDFD;
+    --accent3: gold;
+    --accent4: black;
+    --accent5: #bbb;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+}
+.left-header{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 10px;
+    background-color: var(--primary-color);
+
+}
+.left-header img {
+    width: 80px;
+}
+nav {
+	max-width: 700px;
+	margin: 1rem auto;
+    background-color: var(--primary-color);
+	font-weight: 700;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+	color: var(--accent1);
+}
+#menu.open::before {
+	content: "✖";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+}
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+    font-size: 20px;
+	color: var(--accent1);
+
+}
+.navigation a {
+    position: relative;
+    text-decoration: none;
+    color: var(--accent1);
+  }
+  
+  .navigation a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px; 
+    width: 0;
+    height: 4px;
+    background-color: var(--secondary-color);
+    transition: width 0.3s ease;
+  }
+  
+  .navigation a:hover::after, 
+  .navigation a.active::after {
+    width: 100%;
+  }
+  
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+ h1 {
+    background-color: var(--secondary-color);
+    font-size: 2rem;
+    color: var(--accent1);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+  } 
+  .display-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+  }
+  
+  #gridBtn, #listBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  #gridBtn img,
+  #listBtn img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  
+  #gridBtn:hover,
+  #listBtn:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  #membersContainer {
+    display: grid;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin: 2rem auto;              
+    padding: 0 1rem;                 
+    max-width: 1200px;
+  }
+  
+  .grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .list-view {
+    grid-template-columns: 1fr;
+  }
+  
+  .member-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: var(--primary-color);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Grid view style */
+  .grid-view .member-card {
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* List view styling */
+  .list-view .member-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  /* Show images in grid, then hide in list */
+  .member-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  
+  .list-view .member-card img {
+    display: none;
+  }
+  
+  /* Info blocks */
+  .member-info {
+    flex: 2 1 300px;
+  }
+  
+  .member-contact {
+    flex: 1 1 150px;
+    text-align: right;
+  }
+  
+  .member-card h3 {
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .member-card p,
+  .member-card a {
+    margin: 0.2rem 0;
+    color: var(--accent4);
+    text-decoration: none;
+  }
+  
+  /* Membership level backgrounds */
+  .level-1 { background-color: #f9f9f9; padding: 2px; border: 1px solid var(--accent4) ; border-radius: 3px; }
+  .level-2 { background-color: #e0e0e0; padding: 2px; border: 1px solid var(--accent4); border-radius: 3px;}
+  .level-3 { background-color: #ffd700; padding: 2px; border: 1px solid var(--accent4); border-radius: 3px;}
+  
+
+  footer {
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  

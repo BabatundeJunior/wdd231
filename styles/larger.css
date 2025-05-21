@@ -3,10 +3,10 @@
 	--primary-color: steelblue;
 	--secondary-color: gray;
 	--accent1: black;
-    --accent2: #fff;
-    --accent4: #333;
-    --accent5: #bbb;
-    --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --accent2: #fff;
+  --accent4: #333;
+  --accent5: #bbb;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 @media screen and (min-width: 1020px) {
     h1 {
