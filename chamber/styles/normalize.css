@@ -18,14 +18,13 @@
 .left-header{
     display: flex;
     gap: 15px;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     padding: 10px 0 0 10px;
     background-color: var(--primary-color);
 
 }
 .left-header img {
-    width: 80px;
+    width: 100px;
 }
 nav {
 	max-width: 700px;
