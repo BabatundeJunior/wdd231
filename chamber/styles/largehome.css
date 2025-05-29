@@ -1,0 +1,80 @@
+:root {
+	--primary-color: #E4E0DD	;
+	--secondary-color: #0C575A;
+    --accent1: #DC6A38;
+    --accent2: #FDFDFD;
+    --accent3: gold;
+    --accent4: black;
+    --accent5: #bbb;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+  @media screen and (min-width: 1080px) {
+    main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas: 
+        "cta      cta"
+        "hero     events"
+        "hero     weather"
+        "spotlight spotlight";
+      gap: 2rem;
+      padding: 1rem 3rem;
+    }
+  
+    .cta {
+      grid-area: cta;
+    }
+  
+    .hero {
+      grid-area: hero;
+    }
+  
+    .events {
+      grid-area: events;
+    }
+  
+    .weather {
+      grid-area: weather;
+    }
+  
+    .spotlights {
+      grid-area: spotlight;
+    }
+
+      .cta .join-btn:hover {
+        background-color: var(--accent3);
+        color: var(--accent4);
+      }
+      .hero {
+        grid-area: hero;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .events {
+        border-left: 5px solid var(--secondary-color);
+      }
+      .weather {
+        border-left: 5px solid var(--secondary-color);
+      }
+      .spotlights h2 {
+        font-size: 2rem;
+      }
+    #spotlight-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        background-color: var(--secondary-color);
+      }
+      .spotlight-card a:hover {
+        text-decoration: underline;
+      }
+      .level-1, .level-2, .level-3 {
+        background-color: var(--primary-color);
+        padding: 15px;
+        color: var(--accent4);
+        }
+  }
+  
