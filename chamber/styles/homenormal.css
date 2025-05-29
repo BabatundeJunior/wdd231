@@ -116,13 +116,4 @@
     font-weight: bold;
     text-decoration: none;
   }
-
-  
-  /* Optional: Left border color accents by level */
-  .spotlight-card[data-level="2"] {
-    border-left: 5px solid var(--accent3);
-  }
-  .spotlight-card[data-level="3"] {
-    border-left: 5px solid var(--accent1);
-  }
   
