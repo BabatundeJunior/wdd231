@@ -5,3 +5,5 @@ document.getElementById('lastName').textContent = urlParams.get('lastName') || '
 document.getElementById('email').textContent = urlParams.get('email') || 'N/A';
 document.getElementById('phone').textContent = urlParams.get('phone') || 'N/A';
 document.getElementById('organization').textContent = urlParams.get('organization') || 'N/A';
+document.getElementById('timestamp').textContent = urlParams.get('timestamp') || 'N/A';
+
