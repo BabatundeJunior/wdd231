@@ -1,0 +1,108 @@
+:root {
+	--primary-color: #E4E0DD	;
+	--secondary-color: #0C575A;
+    --accent1: #DC6A38;
+    --accent2: #FDFDFD;
+    --accent3: gold;
+    --accent4: black;
+    --accent5: #bbb;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header {
+    text-align: center;
+    color: var(--accent1);
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+.visitor-message {
+  background-color: #e0f7fa;
+  color: #006064;
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 90%;
+}
+.discover-card .card-content {
+  margin: 0.9rem 8px;
+  border: 1px solid var(--accent4);
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+
+
+  display: grid;
+  grid-template-areas:
+    "title"
+    "image"
+    "description"
+    "address"
+    "button";
+}
+
+.discover-card .card-content h2  {
+  margin: 0.5rem 10px;
+  grid-area: title;
+  }
+  
+  .discover-card .card-content figure {
+    margin: 0.5rem 10px;
+    grid-area: image;
+  }
+  
+  .discover-card .card-content p {
+    margin: 0.5rem 10px;
+    grid-area: description;
+  }
+  
+  .discover-card .card-content address {
+    margin: 0.5rem 10px;
+    grid-area: address;
+  }
+  
+  .discover-card .card-content button {
+    margin: 0.5rem 10px;
+    grid-area: button;
+  }
+  .discover-card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.25rem;
+  }
+
+  @media only screen and (min-width: 641px) {
+    .discover-card .card-content {
+      grid-template-areas:
+        "title title"
+        "image description"
+        "image address"
+        "image button";
+    }
+    .discover-card img {
+      width: 300px;
+      height: 200px;
+      border-radius: 0.25rem;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .discover {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .discover-card img:hover {
+      transform: scale(1.05);
+    }
+  }
+

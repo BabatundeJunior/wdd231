@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ibom Plaza",
+    "image": "images/plaza800.webp",
+    "address": "Ibom Plaza, Uyo, Akwa Ibom",
+    "description": "A central meeting point in Uyo with open seating, a large screen, and a clean environment for relaxing and enjoying community events."
+  },
+  {
+    "name": "Ibom Tropicana",
+    "image": "images/tropicana800.webp",
+    "address": "Udo Udoma Avenue, Uyo",
+    "description": "A large entertainment and shopping complex featuring cinemas, stores, salons, and food courts. Renovated in 2020 for more space and better services."
+  },
+  {
+    "name": "National Museum",
+    "image": "images/museum800.webp",
+    "address": "Udo Udoma Avenue, Uyo",
+    "description": "Showcases historical photos and cultural exhibits. Commissioned in 2007 and inspired by former governor Victor Attah's vision of cultural preservation."
+  },
+  {
+    "name": "Le Meridien Ibom Hotel & Golf Resort",
+    "image": "images/lemeridien800.webp",
+    "address": "Nwaniba Road, Uyo",
+    "description": "A luxury resort with modern rooms, a golf course, and scenic views. Offers premium comfort and relaxation for travelers and locals."
+  },
+  {
+    "name": "Ibom E-library",
+    "image": "images/elibrary800.webp",
+    "address": "Ibb Way, Uyo",
+    "description": "Africa’s first digital library with over 1,500 computer seats, offering modern educational resources and a quiet study environment."
+  },
+  {
+    "name": "Ibom Stadium",
+    "image": "images/stadium800.webp",
+    "address": "Nsikak Eduok Avenue, Uyo",
+    "description": "A 35,000-seat stadium known as the Nest of Champions. Hosts major sporting events and offers great experiences for sports lovers."
+  },
+  {
+    "name": "Ibeno Beach",
+    "image": "images/ibeno800.webp",
+    "address": "Ibeno, Akwa Ibom",
+    "description": "West Africa’s longest beach. Ideal for tourism, beach soccer, boating, and relaxing with stunning Atlantic coastal views."
+  },
+  {
+    "name": "University of Uyo",
+    "image": "images/uniuyo800.webp",
+    "address": "Nwaniba Road, Uyo",
+    "description": "A federal university with notable art displays. Located in a quiet area and popular for its vibrant academic and creative culture."
+  }
+]

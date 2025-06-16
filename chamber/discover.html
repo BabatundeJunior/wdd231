@@ -16,12 +16,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">   
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/larger.css">
-        <link rel="stylesheet" href="styles/thankyou.css">
-
+        <link rel="stylesheet" href="styles/discoverbase.css">
+        <link rel="stylesheet" href="styles/">
         <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/visitmessage.js" defer></script>
+        <script type="module" src="scripts/discover.js"></script>
         <script src="scripts/date.js" defer></script>
-        <script src="scripts/thankyou.js" defer></script>
-
     </head>
 <body>
 
@@ -34,8 +34,8 @@
         <nav>
             <ul class="navigation">
                 <li><a href="index.html" rel="noopener noreferrer" >Home</a></li>
-                <li><a href="discover.html" rel="noopener noreferrer">Discover</a></li>
-                <li ><a href="directory.html" rel="noopener noreferrer" >Directory</a></li>
+                <li><a href="discover.html" rel="noopener noreferrer" class="active">Discover</a></li>
+                <li ><a href="directory.html" rel="noopener noreferrer">Directory</a></li>
                 <li><a href="join.html" rel="noopener noreferrer">Join</a></li>
             </ul>
         </nav>
@@ -43,37 +43,18 @@
     </header>
 
 
-    <main id="thankyou">
 
-        <section class="thankyou-box">
-            <h1>Thank You for Joining Us!</h1>
-            <p>We have received your application. Thank you for taking the time to join us.</p>
-            <p>We will review your submission and <strong>reach out to you via email shortly.</strong></p>
-            <p>Here are the details you submitted:</p>
-          <br>
-            <p><span class="boldtext">First Name:</span> <span id="firstName"></span></p>
-            <p><span class="boldtext">Last Name:</span> <span id="lastName"></p>
-            <p><span class="boldtext">Email:</span> <span id="email"></span></p>
-            <p><span class="boldtext">Phone:</span> <span id="phone"></span></p>
-            <p><span class="boldtext">Business Name:</span> <span id="organization"></span></p>
-            <p><span class="boldtext">Date Submitted:</span> <span id="timestamp"></span></p>
-
-          
-            <a href="index.html" class="home-btn">Return  Home</a>
-          </section>
-          
-          
-
+    <main>
+        <div class="visitor-message" id="visit-message"></div>
+        <h2 class="header">Discover Uyo</h2>
+        <section class="discover" id="discover-section">
+          <!-- Cards will be inserted here dynamically -->
+        </section>
     </main>
 
+          
 
-
-    
-
-
-
-
-<footer>
+    <footer>
   <div class="footer-content">
     <div class="footer-left">
       <strong>Uyo Chamber of Commerce</strong><br>
@@ -96,7 +77,7 @@
       <p><span id="lastModified"></span></p>
     </div>
   </div>
-</footer>
+    </footer>
 
     
 </body>
