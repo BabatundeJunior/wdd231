@@ -1,0 +1,56 @@
+    :root {
+      --primary: #ffffff;
+      --secondary: #000000;
+      --accent1: #66a0b5;
+      --accent2: #007da5;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: var(--primary);
+      color: var(--secondary);
+      margin: 0;
+      padding: 1rem 2rem;
+      line-height: 1.6;
+    }
+
+    header {
+      border-bottom: 4px solid var(--accent2);
+      margin-bottom: 1rem;
+    }
+
+    h1, h2 {
+      color: var(--accent2);
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .highlight {
+      background-color: var(--accent1);
+      padding: 0.25rem 0.5rem;
+      border-radius: 5px;
+      color: var(--primary);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid var(--accent1);
+      margin-top: 1rem;
+    }
+
+    code {
+      background: #f2f2f2;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
